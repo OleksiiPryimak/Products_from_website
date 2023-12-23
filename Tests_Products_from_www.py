@@ -16,10 +16,12 @@ def test_extract_converts_newlines_to_spaces():
     assert got == expected
 
 
+# for testing you need to have downloaded HTML-file.html
 def test_scrapper_reallife_webpage():
-    with open('data/Castorama-L05-pro.html',encoding='utf-8-sig') as stream:
+    with open('data/HTML-file.html',encoding='utf-8-sig') as stream:
         html = stream.read()
     got = extract(html, "//*[@id='categoryMainContent']/div/section/div/div/section/section/h3")
+    # example of the expected data:
     expected = [ 
         "Zlewozmywak granitowy Burnell 1-komorowy z półociekaczem czarny",
         "Zlewozmywak granitowy Laveo Celebes 1-komorowy z baterią czarny",
