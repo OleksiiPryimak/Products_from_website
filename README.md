@@ -1,2 +1,4 @@
 # Products_from_www
- Products_from_www (code & test)
+
+This code will help you automatically extract selected information from selected websites.<br/>
+The user must provide the website address and xpath.
