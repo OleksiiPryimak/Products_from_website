@@ -1,6 +1,6 @@
-# python (lokation)/Tests_Products_from_www.py
+# python (lokation)/Tests_Products_from_website.py
 
-from Products_from_www import extract
+from Products_from_website import extract
 
 def test_extract_should_strip_texts():
     html = '<b> should be stripped </b>'

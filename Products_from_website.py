@@ -1,6 +1,6 @@
-# python (lokation)/Products_from_www.py "www" "xpath"
+# python (lokation)/Products_from_website.py "website" "xpath"
 # for example:
-# python (lokation)/Products_from_www.py "https://www.castorama.pl/produkty/urzadzanie/wyposazenie-kuchenne/zlewozmywaki.html" "//*[@id='categoryMainContent']/div/section/div/div/section/section/h3"
+# python (lokation)/Products_from_website.py "https://www.castorama.pl/produkty/urzadzanie/wyposazenie-kuchenne/zlewozmywaki.html" "//*[@id='categoryMainContent']/div/section/div/div/section/section/h3"
 
 import click
 from lxml import html
